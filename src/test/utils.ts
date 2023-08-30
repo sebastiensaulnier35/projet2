@@ -1,3 +1,3 @@
 export function myTextSubModule(input: string): string {
-  return "test7";
+  return "test5";
 }
