@@ -1,5 +1,5 @@
 import dotenv from "dotenv";
-//import { myTextSubModule } from "./submodules-testmodule/utils.js";
+import { myTextSubModule } from "./test/utils.js";
 //import { Bom } from "./submodule/models/Bom.js";
 //import { custInt } from "./submodule/utilities/utils.js";
 dotenv.config();
@@ -9,4 +9,4 @@ const ENV = process.env.ENV;
 //console.log(b);
 //console.log(custInt("45"));
 console.log("serverts test " + ENV);
-//console.log("text: " + myTextSubModule("test"));
+console.log("text: " + myTextSubModule("test"));
